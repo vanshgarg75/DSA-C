@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #3b3b3b;
+      color: #f5f5f5;
+      box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    h2 {
+      font-weight: 700;
+      border-bottom: 2px solid #f39c12;
+      padding-bottom: 10px;
+      color: #e67e22;
+    }
+    h3 {
+      margin-top: 20px;
+      font-weight: 700;
+    }
+    a {
+      display: block;
+      padding: 10px;
+      margin: 5px 0;
+      color: #e67e22;
+      text-decoration: none;
+      border: 2px solid #f39c12;
+      border-radius: 5px;
+      text-align: center; /* Center-aligns the text */
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    a:hover {
+      background-color: #f39c12;
+      color: #3b3b3b;
+    }
+    .button {
+      display: inline-block;
+      color: #ffffff;
+      background-color: #f39c12;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-align: center;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .button:hover {
+      background-color: #cc814f;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h2>DSA Programs</h2>
+    
+    <h3><a href="2darray.html" target="content">2D Arrays</a></h3>
+    <h3><a href="graph.html" target="content">Graphs</a></h3>
+    <h3><a href="linked.html" target="content">Linked Lists</a></h3>
+    <h3><a href="queue.html" target="content">Queues</a></h3>
+    <h3><a href="recursion.html" target="content">Recursion</a></h3>
+    <h3><a href="searching.html" target="content">Searching Algorithms</a></h3>
+    <h3><a href="1darray.html" target="content">Single Dimension Arrays</a></h3>
+    <h3><a href="sorting.html" target="content">Sorting Algorithms</a></h3>
+    <h3><a href="stack.html" target="content">Stacks</a></h3>
+    <h3><a href="string.html" target="content">Strings</a></h3>
+    <h3><a href="tree.html" target="content">Trees</a></h3>
+    
+  </div>
+  <div>
+    <a href="index.html" class="button" target="_parent">Back to Menu</a>
+  </div>
+
+  <!-- Link to JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
